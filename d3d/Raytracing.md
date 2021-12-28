@@ -789,7 +789,7 @@ recursion.
 > [TraceRay()](#traceray) could be called with
 `RAY_FLAG_ACCEPT_FIRST_HIT_AND_END_SEARCH |
 RAY_FLAG_SKIP_CLOSEST_HIT_SHADER` flags from the [ray generation shader](#ray-generation-shaders),
-followed by exiting the shader withn nothing else to do. Any hit shaders,
+followed by exiting the shader with nothing else to do. Any hit shaders,
 if present on geometry, would execute to determine transparency,
 though these shader invocations could be skipped if desired by also including `RAY_FLAG_FORCE_OPAQUE`.
 >
